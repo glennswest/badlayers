@@ -1,6 +1,5 @@
 FROM ubi8/ubi-minimal
-ENTRYPOINT ECHO Podman build this container
-
+ENTRYPOINT ["tail", "-f", "/dev/null"]
 RUN mkdir  /data
 COPY ./data/layer-0000.dat /data
 COPY ./data/layer-0001.dat /data
