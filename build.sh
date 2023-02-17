@@ -1,4 +1,4 @@
-for ((c=0; c<100; c++))
+for ((c=0; c<300; c++))
 do
     imagename=`printf "badlayer%03d" $c`
     ./gencontainer.sh
